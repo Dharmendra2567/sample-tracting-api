@@ -47,7 +47,7 @@ This project is a RESTful API built using **Node.js**, **Express**, and **MongoD
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/sample-collection-api.git
+git clone https://github.com/Dharmendra2567/sample-tracting-api
 cd sample-collection-api
 ```
 
@@ -115,10 +115,11 @@ POST /api/samples
 
 ```json
 {
-  "patientName": "John Doe",
+  "sampleName": "Blood",
   "hospitalName": "City Hospital",
+  "patientName" : "Agent A",
   "scheduledAt": "2025-08-10T10:00:00.000Z",
-  "agent": "64dd5d5123456789abcdef00"
+  "agent": "64dd5d5123456789abcdef00"  // generated when user logged in or registered
 }
 ```
 
